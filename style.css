@@ -1,0 +1,60 @@
+/*
+    Theme Name: My Project
+    Author: lymin00
+    Author URI: https://www.facebook.com/binisvip
+    Version: 1.0 
+*/
+
+#header { 
+    background-color: #3a3a3a;
+    background: url("image/img.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 416px;
+}
+
+#site-title {
+    color:#333;
+    /* font-weight: ; */
+    font-size: 34px;
+    position: absolute;
+    left: 520px;
+    top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+
+}
+
+#site-des {
+    color: #333;
+    position: absolute;
+    left: 520px;
+    top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.blog-nav {
+    padding-left: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+.blog-nav li {
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+    font-weight: 500;
+}
+
+.blog-nav li a {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+body {
+    background-color: #333;
+}
