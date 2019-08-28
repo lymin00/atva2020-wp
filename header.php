@@ -14,9 +14,16 @@
     </head>
 
 <body <?php body_class(); ?>>
-    <div id ='header'>
-        <h1 id='site-title'>ATVA 2019</h1> 
-        <h2 id='site-des'>aaa</h2>
+    <div id='header'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-sm-5'> </div>
+                <div class='col-sm-7'>
+                    <h1 id='site-title'>ATVA 2019</h1> 
+                    <h2 id='site-des'>aaa</h2>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="blog-masthead">
@@ -26,4 +33,5 @@
             </nav>
         </div>
     </div>
+
     
